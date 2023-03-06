@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+void main(){
+ int a = 5;
+ int b = 2;
+// int c = 10;
+ clrscr();
+ a==b ? printf("a equals to b") : printf("a is not equal to b");
+ getch();
+}
